@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BinDecConverter
+namespace RevString
 {
     class StringInverter
     {
         public static String Run(String InvStr)
         {
-            String Str = ""; 
+            String Str = "";
             foreach (Char c in InvStr)
             {
                 Str = c + Str;
